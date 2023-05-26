@@ -156,11 +156,12 @@ body {
   min-height: 44px;
 }
 
-.icon-menu a {
+.icon-menu button {
   font-size: 25px;
-  text-align: center;
+  align-items: center;
   justify-content: center;
-  text-decoration: none;
+  background-color: transparent;
+  border-style: none;
   color: #FF9500;
   display: flex;
   flex-direction: column;
@@ -218,6 +219,12 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1.5em;
   grid-row-gap: 1.5em;
+}
+
+.skeleton {
+  user-select: none;
+  background-color: #eee;
+  color: #eee;
 }
 
 .card {
