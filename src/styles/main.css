@@ -177,6 +177,8 @@ body {
   text-align: center;
   min-height: 700px;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/images/heros/hero-image_2.jpg');
   width: 100%;
 }
@@ -223,8 +225,8 @@ main {
 
 .skeleton {
   user-select: none;
-  background-color: #eee;
-  color: #eee;
+  background-color: #ffffff;
+  color: #ffffff;
 }
 
 .card {
@@ -290,6 +292,52 @@ main {
   -webkit-box-orient: vertical;
 }
 
+/* favorite style */
+
+.list {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1.5em;
+  grid-row-gap: 1.5em;
+}
+
+.empty-container {
+  max-width: 600px;
+  padding: 25px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.empty-container a{
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 10px 20px;
+  background-color: #FF9500;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  min-width: 44px;
+  min-width: 44px;
+  cursor: pointer;
+  transition: all .10s ease-in-out;
+}
+
+.empty-container a:hover {
+  color: #B75B00;
+}
+
+.empty-text {
+  text-align: center;
+  padding-block: 10px;
+}
+
 /* Footer */
 footer{
   width: 100%;
@@ -314,6 +362,7 @@ footer .footer-content{
 footer .footer-content .footer-text{
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 footer .footer-content .footer-text p{

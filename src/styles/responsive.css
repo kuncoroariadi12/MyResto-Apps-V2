@@ -52,6 +52,11 @@
         flex-wrap: wrap;
         column-gap: .5rem;
     }
+    .list,
+    .menu-detail,
+    .restaurant-profile {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -60,9 +65,21 @@
         grid-column-gap: 1.5em;
         grid-row-gap: 1.5em;
     }
+    .list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .menu-detail,
+    .restaurant-profile {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (min-width: 1200px) {
+    /* .menu-detail,
+    .restaurant-profile {
+        grid-template-columns: repeat(2, 1fr);
+    } */
     main {
         max-width: 1200px;
     }
