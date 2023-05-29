@@ -8,6 +8,8 @@ import '../styles/responsive.css';
 // import JS
 import App from './views/app';
 import swRegister from './utils/sw-register';
+import CONFIG from './globals/config';
+import { webSocketInitiator } from './utils/web-socket-initiator';
 
 // import components
 import './components/navbar';
@@ -29,4 +31,5 @@ window.addEventListener('hashchange', () => {
 window.addEventListener('load', () => {
     app.renderPage();
     swRegister();
+    webSocketInitiator.init(CONFIG.WEB_SOCKET_SERVER);
 });

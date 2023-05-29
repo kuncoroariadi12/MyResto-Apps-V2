@@ -80,7 +80,7 @@ const createReviewCard = (data) => {
                 <p class="review-date">${review.date}</p>
             </div>
             <div class="review-body">
-                "${review.review}""
+                "${review.review}"
             </div>
         </div>
         `;

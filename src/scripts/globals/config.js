@@ -6,6 +6,7 @@ const CONFIG = {
     DATABASE_NAME: 'my-resto-database',
     DATABASE_VERSION: 1,
     OBJECT_STORE_NAME: 'restaurant',
+    WEB_SOCKET_SERVER: 'wss://javascript.info/article/websocket/chat/ws',
 };
 
 export default CONFIG;

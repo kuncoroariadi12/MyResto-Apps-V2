@@ -13,14 +13,14 @@ const detail = {
           <div id="result"></div>
           <div id="likeButtonContainer"></div>
           <div class="customer-reviews">
-          <h2 class="add-review_title">Add New Review</h2>
+          <h2>Add New Review</h2>
             <div class="review-form">
               <div class="input-form">
-                <div class="review_form_name">
+                <div class="review-form-name">
                     <label for="reviewerName">Name</label><br>
                     <input type="text" name="nama" id="reviewerName" placeholder="Input your name" required>
                 </div>
-                <div class="review_form_content">
+                <div class="review-form-content">
                     <label for="reviewContent">Review</label><br>
                     <textarea name="content" id="reviewContent" placeholder="Input your review" required></textarea>
                 </div>
