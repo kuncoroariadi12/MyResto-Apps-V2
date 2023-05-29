@@ -9,8 +9,8 @@ class Navbar extends HTMLElement {
         <nav class="navbar">
           <a class="nav-logo" href="#">MyResto</a>
           <ul class="nav-list">
-            <li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="#">Favorite</a></li>
+            <li class="nav-item"><a href="#/">Home</a></li>
+            <li class="nav-item"><a href="#/favorite">Favorite</a></li>
             <li class="nav-item"><a target="_blank" rel="noopener" href="https://linkedin.com/in/kuncoro-ariadi/">About Us</a></li>
           </ul>
         </nav>
@@ -25,8 +25,8 @@ class Navbar extends HTMLElement {
         </nav>
         <nav id="drawer" class="nav-mobile">
           <ul class="nav-mob-list">
-            <li class="nav-mob-item"><a href="">Home</a></li>
-            <li class="nav-mob-item"><a href="#">Favorite</a></li>
+            <li class="nav-mob-item"><a href="#/">Home</a></li>
+            <li class="nav-mob-item"><a href="#/favorite">Favorite</a></li>
             <li class="nav-mob-item"><a target="_blank" rel="noopener" href="https://linkedin.com/in/kuncoro-ariadi/">About Us</a></li>
           </ul>
         </nav>
