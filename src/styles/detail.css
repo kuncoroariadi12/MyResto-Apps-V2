@@ -18,7 +18,7 @@
   position: fixed;
   bottom: 16px;
   right: 16px;
-  background-color: #FF9500;
+  background-color: #FF5E14;
   color: #ffffff;
   border-radius: 50%;
   border: none;
@@ -42,7 +42,7 @@
 }
 
 .desc-icon {
-  color: #FF9500;
+  color: #FF5E14;
 }
 
 .restaurant-img-container, .restaurant-desc{
@@ -121,7 +121,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #FF9500;
+  color: #FF5E14;
 }
 
 .review-name {
@@ -151,7 +151,7 @@ li {
 
 .input-form label {
   font-weight: 600;
-  color: #FF9500;
+  color: #FF5E14;
 }
 
 input, textarea {
@@ -181,8 +181,8 @@ input, textarea {
 .submit-btn {
   display: inline-block;
   margin: 20px 10px;
-  padding: 10px 20px;
-  background-color: #FF9500;
+  padding: 15px 20px;
+  background-color: #FF5E14;
   border: none;
   border-radius: 10px;
   color: #ffffff;
@@ -195,5 +195,5 @@ input, textarea {
 }
 
 .submit-btn:hover {
-  color: #B75B00;
+  color: #B7290a;
 }

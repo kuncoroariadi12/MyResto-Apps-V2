@@ -16,7 +16,7 @@ body {
 /* skip to content */
 .skip-content {
   position: absolute;
-  background-color: #FF9500;
+  background-color: #FF5E14;
   color: rgb(255, 255, 255);
   top: -100px;
   left: 0;
@@ -57,7 +57,7 @@ body {
   min-width: 44px;
   min-height: 44px;
   text-decoration: none;
-  color: #FF9500;
+  color: #FF5E14;
 }
 
 .nav-list {
@@ -78,7 +78,7 @@ body {
   text-decoration: none;
   font-size: 1rem;
   font-weight: 400;
-  color: #FF9500;
+  color: #FF5E14;
   padding: 0.5rem 1rem;
   border-radius: 999px;
   transition: all .2s ease-in-out;
@@ -86,7 +86,7 @@ body {
 
 .nav-list a:hover{
   color: rgb(255, 255, 255);
-  background-color: #FF9500;
+  background-color: #FF5E14;
 }
 
 .nav-item {
@@ -111,7 +111,7 @@ body {
   background-color: #ffffff;
   font-weight: 600;
   font-size: 18px;
-  color: #FF9500;
+  color: #FF5E14;
   justify-content: space-between;
   padding-block: 10px;
   padding-inline: 20px;
@@ -123,7 +123,7 @@ body {
   margin-block: 10px;
   display: flex;
   width: 100%;
-  background-color: #FF9500;
+  background-color: #FF5E14;
   font-weight: 500;
   font-size: 18px;
 }
@@ -162,7 +162,7 @@ body {
   justify-content: center;
   background-color: transparent;
   border-style: none;
-  color: #FF9500;
+  color: #FF5E14;
   display: flex;
   flex-direction: column;
   min-width: 44px;
@@ -211,7 +211,7 @@ main {
 
 .content-wrapper h2{
   text-align: center;
-  color: #FF9500;
+  color: #FF5E14;
 }
 
 .card-list {
@@ -248,7 +248,7 @@ main {
   left: 1em;
   position: absolute;
   border-radius: 3px;
-  background-color: #FF9500;
+  background-color: #FF5E14;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.6);
   padding: 5px 10px;
   color: white;
@@ -268,7 +268,7 @@ main {
 .card-title a {
   display: block;
   text-decoration: none;
-  color: #FF9500;
+  color: #FF5E14;
   min-width: 44px;
   min-height: 44px;
 }
@@ -279,7 +279,7 @@ main {
 }
 
 .rating-value {
-  color: #FF9500;
+  color: #FF5E14;
   font-weight: 800;
 }
 
@@ -315,8 +315,8 @@ main {
 .empty-container a{
   display: inline-block;
   margin: 20px 10px;
-  padding: 10px 20px;
-  background-color: #FF9500;
+  padding: 15px 20px;
+  background-color: #FF5E14;
   border: none;
   border-radius: 10px;
   color: #ffffff;
@@ -330,7 +330,7 @@ main {
 }
 
 .empty-container a:hover {
-  color: #B75B00;
+  color: #B7290A;
 }
 
 .empty-text {
@@ -346,7 +346,7 @@ footer{
   margin-block-start: 2rem;
   margin-inline-end: 0rem;
   align-items: center;
-  background-color: #FF9500;
+  background-color: #FF5E14;
   min-width: 44px;
   min-height: 44px;
 }
@@ -417,7 +417,7 @@ footer .footer-content .footer-social-media li a{
 
 footer .footer-content .footer-social-media li a:hover{
   font-size: 2.2rem;
-  color: #B75B00;
+  color: #B7290A;
 }
 
 .loader, .loader:after {
@@ -434,7 +434,7 @@ footer .footer-content .footer-social-media li a:hover{
   border-top: 1em solid #cecece;
   border-right: 1em solid #cecece;
   border-bottom: 1em solid #cecece;
-  border-left: 1em solid #FF9500;
+  border-left: 1em solid #FF5E14;
   transform: translateZ(0);
   animation: load 1.3s infinite linear;
   -webkit-transform: translateZ(0);
